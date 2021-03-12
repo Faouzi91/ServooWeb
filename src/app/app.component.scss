@@ -106,21 +106,27 @@ img.brand-name {
 
  div.tech-img {
      display: inline-flex;
-     background-color: aliceblue;
+    //  background-color: aliceblue;
      margin: 10px 20px;
-     justify-content: center;
+    //  justify-content: center;
      align-items: center;
      width: 200px;
      height: 200px;
  }
 
  .tech-java {
+     display: inline-flex;
      margin: 10px 20px;
-     background-color: aliceblue;
+     justify-content: center;
+    //  background-color: aliceblue;
      height: 200px;
      width: 200px;
  }
 
  .java-img{
      height: 180px;
+ }
+
+ .technology {
+     background-color: aliceblue;
  }
