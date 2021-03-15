@@ -9,7 +9,7 @@ body {
 
 .navbar-brand > img.navlogo {
   margin: auto;
-  padding: 0;
+  padding:  0;
   width: auto;
   height: 36px;
 }
@@ -31,6 +31,8 @@ div.animated-icon1 {
 img.brand-name {
   height: auto;
   width: 90px;
+  padding: 0 5px;
+  margin: 0;
 }
 
 .gradient {
@@ -66,9 +68,13 @@ img.brand-name {
     margin-bottom: 1rem;
 
 }
+.development-integration {
+    background-color: #7f0694ff;
+    color: #fff;
+}
 
 .icon{
-    background-color: aliceblue;
+    background-color: #f9b032ff;
     height: 5rem;
     width: 5rem;
     font-size: 1.75rem;
@@ -98,10 +104,22 @@ img.brand-name {
  }
 
  footer {
-     font-size: 1rem;
+     font-size: .8rem;
      margin: 0;
-     padding: 1.5rem;
-     background-color: aliceblue;
+     padding: 1rem;
+     background-color: #7f0694ff;
+    // background-color: antiquewhite;
+     color: #f9b032ff;
+ }
+
+ .fld {
+   background-color: #fff;
+   padding: 0;
+   margin: 0;
+   width: 140px;
+   height: fit-content;
+   display: flex;
+   align-items: center;
  }
 
  div.tech-img {
@@ -128,5 +146,50 @@ img.brand-name {
  }
 
  .technology {
+    //  background-color: aliceblue;
+ }
+
+ .contact {
      background-color: aliceblue;
  }
+
+ ul.menu, ul.address {
+   list-style-type: none;
+   color: #fff;
+   text-decoration: none;
+ }
+
+ .brand{
+   padding: 5px 10px;
+ }
+
+.address li a , .menu li a{
+    color:#FFF;
+    letter-spacing: 1px;
+    text-decoration:none;
+    font-size: .8rem;
+    list-style-type: none;
+}
+
+.address li a:hover , .menu li a:hover{
+    color: #f9b032ff;
+    -webkit-transition: all 1s ease-in-out;
+    -moz-transition: all 1s ease-in-out;
+    -o-transition: all 1s ease-in-out;
+    transition: all 1s ease-in-out;
+}
+
+.address .fa{
+    color: #f9b032ff;
+    padding: 3px;
+    margin-right: 10px;
+    font-size: 1rem;
+}
+
+ul>span{
+  margin-bottom: 15px;
+  color: #f9b032ff;
+  text-transform: uppercase;
+  font-size: 1rem;
+}
+
