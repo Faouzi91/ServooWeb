@@ -93,13 +93,11 @@ img.brand-name {
 
  .services{
     color: aliceblue;
-    // background-color: #f9b032ff;
     background-color: #7f0694ff;
  }
  .services-heading{
      color: aliceblue;
      background-color: #7f0694ff;
-    // background-color: #f9b032ff;
      width: 100%;
  }
 
@@ -108,8 +106,7 @@ img.brand-name {
      margin: 0;
      padding: 1rem;
      background-color: #7f0694ff;
-    // background-color: antiquewhite;
-     color: #f9b032ff;
+     color: #fff;
  }
 
  .fld {
@@ -124,9 +121,7 @@ img.brand-name {
 
  div.tech-img {
      display: inline-flex;
-    //  background-color: aliceblue;
      margin: 10px 20px;
-    //  justify-content: center;
      align-items: center;
      width: 200px;
      height: 200px;
@@ -136,17 +131,12 @@ img.brand-name {
      display: inline-flex;
      margin: 10px 20px;
      justify-content: center;
-    //  background-color: aliceblue;
      height: 200px;
      width: 200px;
  }
 
  .java-img{
      height: 180px;
- }
-
- .technology {
-    //  background-color: aliceblue;
  }
 
  .contact {
@@ -171,13 +161,14 @@ img.brand-name {
     list-style-type: none;
 }
 
-.address li a:hover , .menu li a:hover{
+.navbar-nav li a:hover, .address li a:hover , .menu li a:hover{
     color: #f9b032ff;
     -webkit-transition: all 1s ease-in-out;
     -moz-transition: all 1s ease-in-out;
     -o-transition: all 1s ease-in-out;
     transition: all 1s ease-in-out;
 }
+
 
 .address .fa{
     color: #f9b032ff;
@@ -188,7 +179,7 @@ img.brand-name {
 
 ul>span{
   margin-bottom: 15px;
-  color: #f9b032ff;
+  color: #fff;
   text-transform: uppercase;
   font-size: 1rem;
 }
