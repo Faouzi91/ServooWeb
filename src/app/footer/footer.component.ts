@@ -11,14 +11,14 @@ export class FooterComponent implements OnInit {
   ngOnInit(): void {}
 
   moveToTop() {
-    document.getElementById('home').scrollIntoView({
+    document.getElementById('home')!.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
       inline: 'start',
     });
   }
   moveToDevelopment() {
-    document.getElementById('development').scrollIntoView({
+    document.getElementById('development')!.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
       inline: 'start',
@@ -26,28 +26,28 @@ export class FooterComponent implements OnInit {
   }
 
   moveToSolution() {
-    document.getElementById('solution').scrollIntoView({
+    document.getElementById('solution')!.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
       inline: 'start',
     });
   }
   moveToServices() {
-    document.getElementById('services').scrollIntoView({
+    document.getElementById('services')!.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
       inline: 'start',
     });
   }
   moveToTechnology() {
-    document.getElementById('technology').scrollIntoView({
+    document.getElementById('technology')!.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
       inline: 'start',
     });
   }
   moveToContact() {
-    document.getElementById('contact').scrollIntoView({
+    document.getElementById('contact')!.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
       inline: 'start',

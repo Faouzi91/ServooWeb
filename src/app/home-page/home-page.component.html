@@ -7,12 +7,17 @@
         <div class="col-md-5 align-items-center">
           <h2>Service Optimization Oriented</h2>
           <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Praesentium deserunt consectetur aperiam ex mollitia temporibus
-            ipsam sunt ab atque consequatur rem cumque recusandae, sint
-            cupiditate exercitationem provident esse at distinctio.
+            SERVOO is a consulting and engineering company that positions itself
+            in the development and deployment of innovative technologies in
+            various fields and in particular those aimed at lifting African
+            countries out of digital isolation. It was created in February 2018
+            and has since developed in-depth expertise
           </p>
-          <button type="button" class="btn btn-outline-warning" routerLink="/company">
+          <button
+            type="button"
+            class="btn btn-outline-warning"
+            routerLink="/company"
+          >
             Read More ...
           </button>
         </div>
@@ -108,7 +113,7 @@
           <img
             src="../assets/img/companies/1.6.png"
             alt="company logo"
-            class="img-fluid pb-3 "
+            class="img-fluid pb-3"
           />
           <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Error
@@ -118,7 +123,6 @@
       </div>
     </div>
   </section>
-
 
   <div id="business-areas"></div>
   <!-- Business Areas -->
@@ -144,7 +148,9 @@
             ut rem temporibus similique! Sit quidem repellat id voluptate quod?
           </p>
           <ul class="b-a">
-            <li><a (click)="moveToDevelopment()">Development and Integration</a></li>
+            <li>
+              <a (click)="moveToDevelopment()">Development and Integration</a>
+            </li>
             <li><a (click)="moveToSolution()">Solutions</a></li>
             <li><a (click)="moveToServices()">Services</a></li>
           </ul>
@@ -152,7 +158,6 @@
       </div>
     </div>
   </section>
-
 
   <div #development id="development"></div>
   <!-- Decelopment and Integration -->
@@ -248,7 +253,6 @@
     </div>
   </section>
 
-
   <div #solution id="solution"></div>
   <!-- Solutions -->
   <section class="solutions pb-5">
@@ -271,38 +275,44 @@
         </div>
       </div>
       <div class="row my-3 g-3">
-        <div class="col-md-4">
+        <div class="col-md-4 view overlay z-depth-1-half">
           <img
             src="../assets/img/c1.jpg"
             alt="Solution image"
             class="img-fluid"
           />
+          <div class="mask rgba-orange-slight"></div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 view overlay z-depth-1-half">
           <img
             src="../assets/img/c2.jpg"
             alt="Solution image"
             class="img-fluid"
           />
+          <div class="mask rgba-orange-slight"></div>
         </div>
-        <div class="col-md-4">
+        <div class="col-md-4 view overlay z-depth-1-half">
           <img
             src="../assets/img/c3.jpg"
             alt="Solution image"
             class="img-fluid"
           />
+          <div class="mask rgba-orange-slight"></div>
         </div>
       </div>
       <div class="row mt-5 justify-content-end">
         <div class="col-md-2">
-          <button type="button" class="btn btn-outline-secondary" routerLink="/solution">
+          <button
+            type="button"
+            class="btn btn-outline-secondary"
+            routerLink="/solution"
+          >
             See All Works
           </button>
         </div>
       </div>
     </div>
   </section>
-
 
   <div services id="services"></div>
   <!-- services -->
@@ -374,7 +384,6 @@
       </div>
     </div>
   </section>
-
 
   <div #technology id="technology"></div>
   <!-- Technology -->
@@ -467,7 +476,6 @@
     </div>
   </section>
 
-
   <div #contact id="contact"></div>
   <!-- Contact Us -->
   <section class="contact pb-5">
@@ -511,5 +519,4 @@
       </div>
     </div>
   </section>
-  
 </body>

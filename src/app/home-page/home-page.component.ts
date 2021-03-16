@@ -12,7 +12,7 @@ export class HomePageComponent implements OnInit {
   ngOnInit(): void {}
 
   moveToDevelopment() {
-    document.getElementById('development').scrollIntoView({
+    document.getElementById('development')!.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
       inline: 'start',
@@ -20,14 +20,14 @@ export class HomePageComponent implements OnInit {
   }
 
   moveToSolution() {
-    document.getElementById('solution').scrollIntoView({
+    document.getElementById('solution')!.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
       inline: 'start',
     });
   }
   moveToServices() {
-    document.getElementById('services').scrollIntoView({
+    document.getElementById('services')!.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
       inline: 'start',
