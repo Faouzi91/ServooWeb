@@ -1,0 +1,99 @@
+{
+  "HOMEMENU": {
+    "HOME": "Acceuil",
+    "DEVELOPMENT-INTEGRATION": "Développements et Intégration",
+    "SOLUTIONS": "Solutions",
+    "SERVICES": "Services",
+    "TECHNOLOGY": "Technologies",
+    "COMPANY": "Entreprise",
+    "CONTACT": "Contact"
+  },
+  "header": {
+    "title": "Service Optimization Oriented",
+    "text": "SERVOO est une société de conseil et d'ingénierie qui se positionne dans le développement et le déploiement de technologies innovantes dans divers domaines et notamment ceux visant à sortir les pays africains de l'isolement numérique. Elle a été créée en février 2018 et a depuis développé une expertise approfondie ...",
+    "btn-text": "En Savoir Plus .."
+  },
+  "Methods": {
+    "title": "Notre base méthodologique",
+    "description":"Voici les différentes méthodologies utilisées pour vous proposer les meilleures solutions.",
+    "desc1": "ESCAP sert de centre régional des Nations Unies pour promouvoir la coopération entre les pays pour parvenir à un développement inclusif et durable. Il s'agit de la plus grande plate-forme intergouvernementale régionale avec 53 États membres et 9 membres associés.",
+    "desc2": "Le Centre des Nations Unies pour la facilitation du commerce et le commerce électronique (UN / CEFACT) est un organe intergouvernemental subsidiaire de la Commission économique des Nations Unies pour l'Europe (CEE-ONU) qui sert de point focal au sein du Conseil économique et social des Nations Unies pour les recommandations sur la facilitation du commerce. et les normes du commerce électronique.",
+    "desc3": "PMI mène des audits d'application pour confirmer l'expérience et / ou l'éducation documentée sur les demandes de certification. Le but de l'audit est de renforcer la crédibilité du programme de certification et des titulaires de certification. Pour chaque certification, un pourcentage spécifié de candidatures est sélectionné au hasard pour audit.",
+    "desc4": "Fichier PDF Modèle de données de l'OMD Version 3.0 - Simplification de la déclaration des marchandises, des cargaisons et des moyens de transport - Mise en œuvre des processus commerciaux du guichet unique - Mise en œuvre des exigences complexes des agences de Système automatisé des douanes - Transit (y compris e-TIR) Modèle de données de l'OMD version 3.0.",
+    "desc5": "Scrum dans Agile est un processus qui permet aux équipes de développement de logiciels de se concentrer sur la fourniture de valeurs commerciales dans les plus brefs délais en inspectant rapidement et à plusieurs reprises les logiciels fonctionnels. Il met l'accent sur la responsabilité, le travail d'équipe et les progrès itératifs vers des objectifs bien définis.",
+    "desc6": "Activités clés de la chaîne de valeur des services Les six activités clés de la chaîne de valeur des services sont la planification, l'amélioration, l'engagement, la conception et la transition, l'obtention / la construction et la prestation et le soutien. Chacun de ces éléments contribue à la création de valeur en transformant divers intrants en extrants spécifiques."
+  },
+  "BusinessAreas": {
+    "title": "Domaines d’activité",
+    "description": "Nous nous concentrons principalement sur les trois domaines suivants.",
+    "link1": "Développements et Intégration",
+    "link2": "Solutions",
+    "link3": "Services"
+  },
+  "Development": {
+    "title": "Développements et Intégration",
+    "description": "Nous avons conçu des solutions en utilisant les approches suivantes.",
+    "img-text1": "Développements à la carte",
+    "img-text2": "Intégration de solutions opensource",
+    "img-text3": "Intégration de solutions opensource"
+  },
+  "Solutions": {
+    "title": "Nos Solutions",
+    "description": "Voici quelques solutions que nous avons mises en place.",
+    "btn-text": "Voir tous les Travaux",
+    "title2": "Travail Effectué",
+    "h-title1": "BGFT",
+    "h-description1":"Développement d'une solution de gestion des vignettes pour les véhicules en transit.",
+    "h-title2":"APN",
+    "h-description2":"Re-engineering of the Website (www.apn.cm) Deployment of professional messaging (www.apn.cm/mail).",
+    "h-title3":"BNS engineering",
+    "h-description3":"Développement d’une solution de courtage en ligne pour les assurances automobiles (INSHORA)",
+    "h-title4":"KEEDI LOGISTICS",
+    "h-description4":"Développement de modules de renforcement  de capacité pour les intermédiaires de dédouanement et de transit des marchandises.",
+    "h-title5":"LITAHI INNOVATIONS",
+    "h-description5":"Co-Création de l’incubateur Incubation Projet de CrowdFarming (Ngaoundéré, Garoua, Maroua) Incubation Plateforme FAWNOO, bourse des métiers de la mode"
+  },
+  "Services": {
+    "title": "Nos services",
+    "btn-text1": "Assistance",
+    "text1": "Nous fournissons une assistance et une aide avec des conseils",
+    "btn-text2": "Externalisation",
+    "text2": "Nous fournissons l'externalisation",
+    "btn-text3": "Formation",
+    "text3": "Nous formons les gens à l'utilisation des dernières technologies"
+  },
+  "Technology": {
+    "title": "Technologies maîtrisées de nos experts"
+  },
+
+  "contact": {
+    "title": "Nous Contacter.",
+    "email": "Adresse e-mail",
+    "subject": "",
+    "textarea": "Zone de texte",
+    "btn": "Envoyer"
+  },
+
+  "company": {
+      "title": "Servoo",
+      "text":"SERVOO est une société de conseil et d’ingénierie qui se positionne dans le développement et le déploiement des technologies innovantes dans des domaines variés et en particulier ceux visant à  sortir les pays africains de l’enclavement numérique. Elle a été créé en février 2018 et développe depuis des expertises pointues à travers lesquelles elle devient progressivement une référence incontournable dans les solutions dédiées au commerce extérieur et à la facilitation des échanges (plateformes logistiques, guichet unique, Transit, Ports, Paiements électroniques, etc.).",
+      "btn-text":"En Savoir Plus",
+      "title2": "Missions",
+      "paragraph1": " Accompagner les entreprises, administrations et Gouvernement dans les mise en oeuvre des reformes basées sur des innvations technologiques.",
+      "paragraph2": "Mettre en oeuvre des services digitaux pour une meilleure gestion des stratégies de développements des pays africains.",
+      "paragraph3": "Encadrer et accompagner le développement des PMEs africaine en vue de réduire la fradcture numérique.",
+      "title3": "Nos Objectifs",
+      "paragraph4": "Briser la fracture numérique entre les pays développés et les pays africains.",
+      "paragraph5": "Propulser une dynamique d'innovation pour les problématiques africaines."
+  },
+
+  "footer": {
+    "name": "Menu",
+    "contact-us": "Nous Contacter",
+    "phone": "Téléphone: +237 694 65 62 00",
+    "Address": "Adresse: Sis à la rue AMI, cité des cocotiers 2, Japoma",
+    "RC": "RC : RC/DLA/2018/R/524",
+    "NIU": "NIU : M021812677122W",
+    "email": "E-mail: servoocmr@gmail.com, infos@servoo.cm"
+  }
+}

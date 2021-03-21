@@ -1,0 +1,100 @@
+{
+  "HOMEMENU": {
+    "HOME": "Home",
+    "DEVELOPMENT-INTEGRATION": "Development and Integration",
+    "SOLUTIONS": "Solutions",
+    "SERVICES": "Services",
+    "TECHNOLOGY": "Technology",
+    "COMPANY": "company",
+    "CONTACT": "Contact"
+  },
+  "header": {
+    "title": "Service Optimization Oriented",
+    "text": "SERVOO is a consulting and engineering company that positions itself in the development and deployment of innovative technologies in various fields and in particular those aimed at lifting African countries out of digital isolation. It was created in February 2018 and has since developed in-depth expertise...",
+    "btn-text": "Read More ..."
+  },
+  "Methods": {
+    "title": "Our Methodological Basis",
+    "description":"These are the different methodologies used to make the best solutions for you.",
+    "desc1": "ESCAP serves as the United Nations’ regional hub promoting cooperation among countries to achieve inclusive and sustainable development. It is the largest regional intergovernmental platform with 53 Member States and 9 associate members.",
+    "desc2": "The United Nations Centre for Trade Facilitation and Electronic Business (UN/CEFACT) is a subsidiary, intergovernmental body of the United Nations Economic Commission for Europe (UNECE) which serves as a focal point within the United Nations Economic and Social Council for trade facilitation recommendations and electronic business standards.",
+    "desc3": "PMI conducts application audits to confirm the experience and/or education documented on certification applications. The purpose of the audit is to enhance the credibility of the certification program and of the certification holders. For each certification, a specified percentage of applications are randomly selected for audit.",
+    "desc4": "PDF file WCO Data Model Version 3.0 -Simplifying reporting of goods, cargo & conveyances-Implementing Single Window business processes-Implementing complex requirements of partner Cross-Border Regulatory Agencies-Dealing with complex schemes for duties, taxes/fees-Helping prepare the blueprint for customs automated system-Transit (incl. e-TIR) WCO Data Model Version 3.0.",
+    "desc5": "Scrum in Agile is a process that allows software development teams to focus on delivering business values in shortest time by rapidly and repeatedly inspecting actual working software. It focuses on accountability, teamwork and iterative progress towards well-defined goals.",
+    "desc6": "Key Service Value Chain Activities The six key activities of the Service Value Chain are Plan, Improve, Engage, Design and Transition, Obtain/Build, and Deliver and Support. Each of these contributes to value creation by transforming various inputs into specific outputs."
+  },
+  "BusinessAreas": {
+    "title": "Business areas",
+    "description": "We are mainly focused on the following three fields.",
+    "link1": "Development and Integration",
+    "link2": "Solutions",
+    "link3": "Services"
+  },
+  "Development": {
+    "title": "Development and Integration",
+    "description": "We have been crafting solutions using the following approches.",
+    "img-text1": "Tailor-made developments",
+    "img-text2": "Integration of opensource solutions",
+    "img-text3": "Development of IOT, Blockchain, Big Data solutions"
+  },
+  "Solutions": {
+    "title": "Our Solutions",
+    "description": "Here are some solutions that we have put together.",
+    "btn-text": "See All Works",
+    "title2":"Work Done",
+    "h-title1":"BGFT",
+    "h-description1":"Development of a sticker management solution for vehicles in transit.",
+    "h-title2":"APN",
+    "h-description2":"Re-engineering of the Website (www.apn.cm) Deployment of professional messaging (www.apn.cm/mail).",
+    "h-title3":"BNS engineering",
+    "h-description3":"Development of an online brokerage solution for automobile insurance (INSHORA).",
+    "h-title4":"KEEDI LOGISTICS",
+    "h-description4":"Development of capacity building modules for intermediaries in customs clearance and transit of goods.",
+    "h-title5":"LITAHI INNOVATIONS",
+    "h-description5":"Co-creation of the incubator Incubation Crowd Farming Project (Ngaoundéré, Garoua, Maroua) Incubation Platform FAWNOO, fashion trades exchange."
+  },
+  "Services": {
+    "title": "Our Services",
+    "btn-text1": "Assistance",
+    "text1": "We Provide Assistance and help with Advices",
+    "btn-text2": "Outsourcing",
+    "text2": "We Provide Outsourcing",
+    "btn-text3": "Training",
+    "text3": "We Train people on the use of the Latest technologies"
+  },
+  "Technology": {
+    "title": "Technologies mastered by our experts"
+  },
+
+  "contact": {
+    "title": "Contact Us.",
+    "email": "Email address",
+    "subject": "",
+    "textarea": "Text area",
+    "btn": "Send"
+  },
+
+  "company": {
+      "title": "Servoo",
+      "text":"SERVOO is a consulting and engineering company that positions itself in the development and deployment of innovative technologies in various fields and in particular those aimed at lifting African countries out of digital isolation. It was created in February 2018 and has since developed in-depth expertise through which it is gradually becoming an essential reference in solutions dedicated to foreign trade and trade facilitation (logistics platforms, one-stop-shop, Transit, Ports, Electronic payments, etc. .).",
+      "btn-text":"Read More",
+      "title2": "Our Mission",
+      "paragraph1": "Support companies, administrations and government in the implementation of reforms based on technological innovations.",
+      "paragraph2": "Implement digital services for better management of development strategies in African countries.",
+      "paragraph3": "Supervise and support the development of African SMEs with a view to reducing the digital fradcture.",
+      "title3": "Our Goals",
+      "paragraph4": "Breaking the digital divide between developed countries and African countries.",
+      "paragraph5": "Propel a dynamic of innovation for African issues."
+
+  },
+
+  "footer": {
+    "name":"Menu",
+    "contact-us":"Contact Us",
+    "phone": "Phone: +237 694 65 62 00",
+    "Address": "Address: Sis à la rue AMI, cité des cocotiers 2, Japoma",
+    "RC": "RC : RC/DLA/2018/R/524",
+    "NIU": "NIU : M021812677122W",
+    "email": "Email: servoocmr@gmail.com, infos@servoo.cm"
+  }
+}

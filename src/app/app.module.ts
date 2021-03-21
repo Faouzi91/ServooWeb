@@ -16,8 +16,13 @@ import { HomePageComponent } from './home-page/home-page.component';
 import { HeaderNavComponent } from './header-nav/header-nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { SolutionComponent } from './solution/solution.component';
+import { TranslateLoader, TranslateModule, TranslateStore } from '@ngx-translate/core';
+import { TranslateHttpLoader } from '@ngx-translate/http-loader';
+import { HttpClientModule, HttpClient } from '@angular/common/http';
 
-const appRoutes: Routes = [{ path: 'company', component: CompanyComponent }];
+export function HttpLoaderFactory(http: HttpClient) {
+  return new TranslateHttpLoader(http);
+}
 
 @NgModule({
   declarations: [
@@ -31,9 +36,19 @@ const appRoutes: Routes = [{ path: 'company', component: CompanyComponent }];
   imports: [
     BrowserModule,
     AppRoutingModule,
+    HttpClientModule,
     InputsModule,
     WavesModule,
     ButtonsModule,
+    TranslateModule.forChild({
+      defaultLanguage: 'fr',
+      loader: {
+        provide: TranslateLoader,
+        useFactory: HttpLoaderFactory,
+        deps: [HttpClient],
+      },
+      isolate: true
+    }),
     RouterModule.forRoot([
       {
         path: '',
@@ -60,7 +75,7 @@ const appRoutes: Routes = [{ path: 'company', component: CompanyComponent }];
   ],
 
   exports: [RouterModule],
-  providers: [],
+  providers: [TranslateStore],
   bootstrap: [AppComponent],
 })
 export class AppModule {}

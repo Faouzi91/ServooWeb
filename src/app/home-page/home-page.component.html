@@ -5,20 +5,16 @@
     <div class="container pb-3">
       <div class="row justify-content-center align-items-center">
         <div class="col-md-5 align-items-center">
-          <h2>Service Optimization Oriented</h2>
+          <h2>{{"header.title" | translate}}</h2>
           <p>
-            SERVOO is a consulting and engineering company that positions itself
-            in the development and deployment of innovative technologies in
-            various fields and in particular those aimed at lifting African
-            countries out of digital isolation. It was created in February 2018
-            and has since developed in-depth expertise...
+            {{"header.text" | translate}}
           </p>
           <button
             type="button"
             class="btn btn-outline-warning"
             routerLink="/company"
           >
-            Read More ...
+            {{"header.btn-text" | translate}}
           </button>
         </div>
         <div class="col-md-5">
@@ -44,10 +40,9 @@
 
   <section class="companies">
     <div class="container text-center pb-5">
-      <h1>Our Methodological Basis</h1>
+      <h1>{{"Methods.title" | translate}}</h1>
       <p>
-        These are the different methodologies used to make the best solutions
-        for you.
+        {{"Methods.description" | translate}}
       </p>
     </div>
     <div class="container text-center">
@@ -59,10 +54,7 @@
             class="img-fluid pb-3"
           />
           <p>
-            ESCAP serves as the United Nations’ regional hub promoting
-            cooperation among countries to achieve inclusive and sustainable
-            development. It is the largest regional intergovernmental platform
-            with 53 Member States and 9 associate members.
+            {{"Methods.desc1" | translate}}
           </p>
         </div>
         <div class="col-md-2">
@@ -72,12 +64,7 @@
             class="img-fluid pb-3"
           />
           <p>
-            The United Nations Centre for Trade Facilitation and Electronic
-            Business (UN/CEFACT) is a subsidiary, intergovernmental body of the
-            United Nations Economic Commission for Europe (UNECE) which serves
-            as a focal point within the United Nations Economic and Social
-            Council for trade facilitation recommendations and electronic
-            business standards.
+            {{"Methods.desc2" | translate}}
           </p>
         </div>
         <div class="col-md-2">
@@ -87,12 +74,7 @@
             class="img-fluid pb-3"
           />
           <p>
-            PMI conducts application audits to confirm the experience and/or
-            education documented on certification applications. The purpose of
-            the audit is to enhance the credibility of the certification program
-            and of the certification holders. For each certification, a
-            specified percentage of applications are randomly selected for
-            audit.
+            {{"Methods.desc3" | translate}}
           </p>
         </div>
         <div class="col-md-2">
@@ -102,12 +84,7 @@
             class="img-fluid pb-3"
           />
           <p>
-            PDF file WCO Data Model Version 3.0 -Simplifying reporting of
-            goods, cargo & conveyances-Implementing Single Window business
-            processes-Implementing complex requirements of partner Cross-Border
-            Regulatory Agencies-Dealing with complex schemes for duties,
-            taxes/fees-Helping prepare the blueprint for customs automated
-            system-Transit (incl. e-TIR) WCO Data Model Version 3.0.
+            {{"Methods.desc4" | translate}}
           </p>
         </div>
         <div class="col-md-2">
@@ -117,11 +94,7 @@
             class="img-fluid pb-3"
           />
           <p>
-            Scrum in Agile is a process that allows software development teams
-            to focus on delivering business values in shortest time by rapidly
-            and repeatedly inspecting actual working software. It focuses on
-            accountability, teamwork and iterative progress towards well-defined
-            goals.
+            {{"Methods.desc5" | translate}}
           </p>
         </div>
         <div class="col-md-2">
@@ -131,11 +104,7 @@
             class="img-fluid pb-3"
           />
           <p>
-            Key Service Value Chain Activities The six key activities of the
-            Service Value Chain are Plan, Improve, Engage, Design and
-            Transition, Obtain/Build, and Deliver and Support. Each of these
-            contributes to value creation by transforming various inputs into
-            specific outputs.
+            {{"Methods.desc6" | translate}}
           </p>
         </div>
       </div>
@@ -159,16 +128,16 @@
           <img src="../assets/img/seo_monochromatic.svg" alt="" />
         </div>
         <div class="col-md-6">
-          <h1 class="my-3">Business areas</h1>
+          <h1 class="my-3">{{"BusinessAreas.title" | translate}}</h1>
           <p class="my-4">
-            We are mainly focused on the following three fields.
+            {{"BusinessAreas.description" | translate}}
           </p>
           <ul class="b-a">
             <li>
-              <a (click)="moveToDevelopment()">Development and Integration</a>
+              <a (click)="moveToDevelopment()">{{"BusinessAreas.link1" | translate}}</a>
             </li>
-            <li><a (click)="moveToSolution()">Solutions</a></li>
-            <li><a (click)="moveToServices()">Services</a></li>
+            <li><a (click)="moveToSolution()">{{"BusinessAreas.link2" | translate}}</a></li>
+            <li><a (click)="moveToServices()">{{"BusinessAreas.link3" | translate}}</a></li>
           </ul>
         </div>
       </div>
@@ -188,8 +157,8 @@
     </svg>
     <div class="container">
       <div class="row text-center">
-        <h1>Development and Integration</h1>
-        <p>We have been crafting solutions using the following approches.</p>
+        <h1>{{"Development.title" | translate}}</h1>
+        <p>{{"Development.description" | translate}}</p>
         <div class="col-md-4 pt-3">
           <div class="icon">
             <svg
@@ -205,7 +174,7 @@
               />
             </svg>
           </div>
-          <h3>Tailor-made developments</h3>
+          <h3>{{"Development.img-text1" | translate}}</h3>
         </div>
         <div class="col-md-4 pt-3">
           <div class="icon">
@@ -222,7 +191,7 @@
               />
             </svg>
           </div>
-          <h3>Integration of opensource solutions</h3>
+          <h3>{{"Development.img-text2" | translate}}</h3>
         </div>
         <div class="col-md-4 pt-3">
           <div class="icon">
@@ -240,7 +209,7 @@
               />
             </svg>
           </div>
-          <h3>Development of IOT, Blockchain, Big Data solutions</h3>
+          <h3>{{"Development.img-text3" | translate}}</h3>
         </div>
       </div>
     </div>
@@ -259,8 +228,8 @@
     <div class="container align-items-center">
       <div class="row text-center justify-content-center">
         <div class="col-md-10">
-          <h1>Our Solutions</h1>
-          <p>Here are the different solutions made by Us.</p>
+          <h1>{{"Solutions.title" | translate}}</h1>
+          <p>{{"Solutions.description" | translate}}</p>
         </div>
       </div>
       <div class="row my-3 g-3">
@@ -296,7 +265,7 @@
             class="btn btn-outline-secondary"
             routerLink="/solution"
           >
-            See All Works
+            {{"Solutions.btn-text" | translate}}
           </button>
         </div>
       </div>
@@ -314,16 +283,16 @@
       ></path>
     </svg>
     <div class="container text-center pt-3 mb-5 services-heading">
-      <h1>Our Services</h1>
+      <h1>{{"Services.title" | translate}}</h1>
       <hr />
     </div>
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-6">
           <button type="button" class="btn btn-outline-warning mb-3">
-            Assistance
+            {{"Services.btn-text1" | translate}}
           </button>
-          <h3>We Provide Assistance and help with Advices</h3>
+          <h3>{{"Services.text1" | translate}}</h3>
         </div>
         <div class="col-md-6">
           <img src="../assets/img/coding_.svg" alt="" />
@@ -333,16 +302,16 @@
         </div>
         <div class="col-md-6">
           <button type="button" class="btn btn-outline-warning mb-3">
-            Outsourcing
+            {{"Services.btn-text2" | translate}}
           </button>
 
-          <h3>We Provide Outsourcing</h3>
+          <h3>{{"Services.text2" | translate}}</h3>
         </div>
         <div class="col-md-6">
           <button type="button" class="btn btn-outline-warning mb-3">
-            Training
+            {{"Services.btn-text3" | translate}}
           </button>
-          <h3>We Train people on the use of the Latest technologies</h3>
+          <h3>{{"Services.text3" | translate}}</h3>
         </div>
         <div class="col-md-6">
           <img src="../assets/img/revenue_.svg" alt="" />
@@ -362,7 +331,7 @@
       ></path>
     </svg>
     <div class="container text-center mb-5 lh-2">
-      <h1>Technologies mastered by our experts</h1>
+      <h1>{{"Technology.title" | translate}}</h1>
       <hr />
     </div>
 
@@ -450,10 +419,10 @@
     <div class="container">
       <div class="row align-items-center justify-content-center">
         <div class="col-md-5">
-          <h1>Contact Us.</h1>
+          <h1>{{"contact.title" | translate}}</h1>
           <div class="mb-3">
             <label for="exampleFormControlInput1" class="form-label"
-              >Email address</label
+              >{{"contact.email" | translate}}</label
             >
             <input
               type="email"
@@ -464,7 +433,7 @@
           </div>
           <div class="mb-3">
             <label for="exampleFormControlTextarea1" class="form-label"
-              >Example textarea</label
+              >{{"contact.textarea" | translate}}</label
             >
             <textarea
               class="form-control"
@@ -472,7 +441,7 @@
               rows="3"
             ></textarea>
           </div>
-          <button type="button" class="btn btn-outline-secondary">Send</button>
+          <button type="button" class="btn btn-outline-secondary">{{"contact.btn" | translate}}</button>
         </div>
         <div class="col-md-5">
           <img src="../assets/img/handshake.svg" alt="Contact image" />

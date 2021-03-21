@@ -90,36 +90,59 @@
             aria-current="page"
             (click)="moveToTop()"
             routerLink=""
-            >Home</a
+            >{{ "HOMEMENU.HOME" | translate }}</a
           >
         </li>
         <li class="nav-item">
           <a class="nav-link" (click)="moveToDevelopment()" routerLink=""
-            >Development and Integration</a
+            >{{ "HOMEMENU.DEVELOPMENT-INTEGRATION" | translate }}</a
           >
         </li>
         <li class="nav-item">
-          <a class="nav-link" (click)="moveToSolution()" routerLink=""
-            >Solution</a
-          >
+          <a class="nav-link" (click)="moveToSolution()" routerLink="">{{
+            "HOMEMENU.SOLUTIONS" | translate
+          }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" (click)="moveToServices()" routerLink=""
-            >Services</a
-          >
+          <a class="nav-link" (click)="moveToServices()" routerLink="">{{
+            "HOMEMENU.SERVICES" | translate
+          }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" (click)="moveToTechnology()" routerLink=""
-            >Technology</a
-          >
+          <a class="nav-link" (click)="moveToTechnology()" routerLink="">{{
+            "HOMEMENU.TECHNOLOGY" | translate
+          }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/company">Company</a>
+          <a class="nav-link" routerLink="/company">{{
+            "HOMEMENU.COMPANY" | translate
+          }}</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" (click)="moveToContact()" routerLink=""
-            >Contact Us</a
+          <a class="nav-link" (click)="moveToContact()" routerLink="">{{
+            "HOMEMENU.CONTACT" | translate
+          }}</a>
+        </li>
+        <li
+          class="lang nav-item d-flex justify-content-center align-items-center"
+        >
+          <select
+            #langSelect
+            status="primary"
+            (change)="changeLanguage($event.target.value)"
+            matRipple
+            filled
           >
+            <!-- [(ngModel)]="translate.currentLang"
+            (selectedChange)="changeLanguage($event)" -->
+            <option
+              *ngFor="let lang of translate.getLangs()"
+              [value]="lang"
+              matRipple
+            >
+              {{ lang | uppercase }}
+            </option>
+          </select>
         </li>
       </ul>
     </div>

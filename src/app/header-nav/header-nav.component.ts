@@ -1,4 +1,5 @@
 import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
+import { TranslateService } from '@ngx-translate/core';
 
 @Component({
   selector: 'app-header-nav',
@@ -7,7 +8,23 @@ import { Component, ElementRef, OnInit, ViewChild } from '@angular/core';
 })
 export class HeaderNavComponent implements OnInit {
  
-  constructor() {}
+  constructor(public translate: TranslateService) {
+    /**Translation service */
+    translate.addLangs(['en', 'fr']);
+    translate.setDefaultLang('fr');
+    const browserLang = translate.getBrowserLang();
+    translate.use(browserLang.match(/en|fr/) ? browserLang : 'fr');
+  }
+  /**Translation functions */
+  public changeLanguage(language: string) {
+    console.log(language);
+    
+    this.translate.use(language);
+  }
+  public get currentLanguage(): string {
+    return this.translate.currentLang;
+  }
+  
 
   ngOnInit(): void {}
 

@@ -3,54 +3,64 @@
       <div class="row d-flex justify-content-around">
         <div class="col-md-6 col-sm-6 col-xs-12">
           <ul class="menu">
-            <span>Menu</span>
+            <span>{{"footer.name" | translate}}</span>
             <hr />
             <li>
-              <a aria-current="page" (click)="moveToTop()" routerLink="">Home</a>
+              <a aria-current="page" (click)="moveToTop()" routerLink="">{{ "HOMEMENU.HOME" | translate }}</a>
             </li>
             <li>
-              <a (click)="moveToTop()" routerLink="">Development and Integration</a>
+              <a (click)="moveToTop()" routerLink="">{{ "HOMEMENU.DEVELOPMENT-INTEGRATION" | translate }}</a>
             </li>
             <li>
-              <a (click)="moveToSolution()" routerLink="">Solution</a>
+              <a (click)="moveToSolution()" routerLink="">{{
+            "HOMEMENU.SOLUTIONS" | translate
+          }}</a>
             </li>
             <li>
-              <a (click)="moveToServices()" routerLink="">Services</a>
+              <a (click)="moveToServices()" routerLink="">{{
+            "HOMEMENU.SERVICES" | translate
+          }}</a>
             </li>
             <li>
-              <a (click)="moveToTechnology()" routerLink="">Technology</a>
+              <a (click)="moveToTechnology()" routerLink="">{{
+            "HOMEMENU.TECHNOLOGY" | translate
+          }}</a>
             </li>
             <li>
-              <a routerLink="/company">Company</a>
+              <a routerLink="/company">{{
+            "HOMEMENU.COMPANY" | translate
+          }}</a>
             </li>
             <li>
-              <a (click)="moveToContact()" routerLink="">Contact Us</a>
+              <a (click)="moveToContact()" routerLink="">{{
+            "HOMEMENU.CONTACT" | translate
+          }}</a>
             </li>
           </ul>
         </div>
         <div class="col-md-6 col-sm-6 col-xs-12">
           <ul class="address">
-            <span>Contact Us</span>
+            <span>{{"footer.contact-us" | translate}}</span>
             <hr />
             <li>
               <i class="fa fa-phone" aria-hidden="true"></i>
-              <a> Phone: +237 694 65 62 00</a>
+              <a> {{"footer.phone" | translate}}</a>
             </li>
             <li>
               <i class="fa fa-map-marker" aria-hidden="true"></i>
-              <a> Address: Sis à la rue AMI, cité des cocotiers 2, Japoma</a>
+              <a>{{"footer.Address" | translate}}</a>
             </li>
             <li>
               <i class="fa fa-address-card" aria-hidden="true"></i>
-              <a>RC : RC/DLA/2018/R/524</a>
+              <a>{{"footer.RC" | translate}}</a>
             </li>
             <li>
               <i class="fa fa-user-circle" aria-hidden="true"></i>
-              <a>NIU : M021812677122W</a>
+              <a>{{"footer.NIU" | translate}}</a>
             </li>
             <li>
               <i class="fa fa-envelope" aria-hidden="true"></i>
-              <a>Email: servoocmr@gmail.com, infos@servoo.cm</a>
+              <a>{{"footer.email" | translate}}</a>
             </li>
           </ul>
         </div>
