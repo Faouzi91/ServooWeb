@@ -7,65 +7,55 @@ import { TranslateService } from '@ngx-translate/core';
   styleUrls: ['./header-nav.component.scss'],
 })
 export class HeaderNavComponent implements OnInit {
- 
   constructor(public translate: TranslateService) {
     /**Translation service */
-    translate.addLangs(['en', 'fr']);
+    translate.addLangs(['fr', 'en']);
     translate.setDefaultLang('fr');
-    const browserLang = translate.getBrowserLang();
-    translate.use(browserLang.match(/en|fr/) ? browserLang : 'fr');
   }
   /**Translation functions */
-  public changeLanguage(language: string) {
-    console.log(language);
-    
-    this.translate.use(language);
+  switchLang(lang: string) {
+    this.translate.use(lang);
   }
-  public get currentLanguage(): string {
-    return this.translate.currentLang;
-  }
-  
-
   ngOnInit(): void {}
 
-  moveToTop()  {
-      document.getElementById("home")!.scrollIntoView({
+  moveToTop() {
+    document.getElementById('home')!.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
       inline: 'start',
     });
   }
   moveToDevelopment() {
-      document.getElementById("development")!.scrollIntoView({
+    document.getElementById('development')!.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
       inline: 'start',
     });
   }
 
-  moveToSolution(){
-      document.getElementById("solution")!.scrollIntoView({
+  moveToSolution() {
+    document.getElementById('solution')!.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
       inline: 'start',
     });
   }
-  moveToServices(){
-      document.getElementById('services')!.scrollIntoView({
+  moveToServices() {
+    document.getElementById('services')!.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
       inline: 'start',
     });
   }
   moveToTechnology() {
-      document.getElementById("technology")!.scrollIntoView({
+    document.getElementById('technology')!.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
       inline: 'start',
     });
   }
   moveToContact() {
-      document.getElementById("contact")!.scrollIntoView({
+    document.getElementById('contact')!.scrollIntoView({
       behavior: 'smooth',
       block: 'start',
       inline: 'start',

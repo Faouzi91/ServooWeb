@@ -5,16 +5,16 @@
     <div class="container pb-3">
       <div class="row justify-content-center align-items-center">
         <div class="col-md-5 align-items-center">
-          <h2>{{"header.title" | translate}}</h2>
+          <h2>{{ "header.title" | translate }}</h2>
           <p>
-            {{"header.text" | translate}}
+            {{ "header.text" | translate }}
           </p>
           <button
             type="button"
             class="btn btn-outline-warning"
             routerLink="/company"
           >
-            {{"header.btn-text" | translate}}
+            {{ "header.btn-text" | translate }}
           </button>
         </div>
         <div class="col-md-5">
@@ -40,9 +40,9 @@
 
   <section class="companies">
     <div class="container text-center pb-5">
-      <h1>{{"Methods.title" | translate}}</h1>
+      <h1>{{ "Methods.title" | translate }}</h1>
       <p>
-        {{"Methods.description" | translate}}
+        {{ "Methods.description" | translate }}
       </p>
     </div>
     <div class="container text-center">
@@ -54,7 +54,7 @@
             class="img-fluid pb-3"
           />
           <p>
-            {{"Methods.desc1" | translate}}
+            {{ "Methods.desc1" | translate }}
           </p>
         </div>
         <div class="col-md-2">
@@ -64,7 +64,7 @@
             class="img-fluid pb-3"
           />
           <p>
-            {{"Methods.desc2" | translate}}
+            {{ "Methods.desc2" | translate }}
           </p>
         </div>
         <div class="col-md-2">
@@ -74,7 +74,7 @@
             class="img-fluid pb-3"
           />
           <p>
-            {{"Methods.desc3" | translate}}
+            {{ "Methods.desc3" | translate }}
           </p>
         </div>
         <div class="col-md-2">
@@ -84,7 +84,7 @@
             class="img-fluid pb-3"
           />
           <p>
-            {{"Methods.desc4" | translate}}
+            {{ "Methods.desc4" | translate }}
           </p>
         </div>
         <div class="col-md-2">
@@ -94,7 +94,7 @@
             class="img-fluid pb-3"
           />
           <p>
-            {{"Methods.desc5" | translate}}
+            {{ "Methods.desc5" | translate }}
           </p>
         </div>
         <div class="col-md-2">
@@ -104,7 +104,7 @@
             class="img-fluid pb-3"
           />
           <p>
-            {{"Methods.desc6" | translate}}
+            {{ "Methods.desc6" | translate }}
           </p>
         </div>
       </div>
@@ -128,16 +128,26 @@
           <img src="../assets/img/seo_monochromatic.svg" alt="" />
         </div>
         <div class="col-md-6">
-          <h1 class="my-3">{{"BusinessAreas.title" | translate}}</h1>
+          <h1 class="my-3">{{ "BusinessAreas.title" | translate }}</h1>
           <p class="my-4">
-            {{"BusinessAreas.description" | translate}}
+            {{ "BusinessAreas.description" | translate }}
           </p>
           <ul class="b-a">
             <li>
-              <a (click)="moveToDevelopment()">{{"BusinessAreas.link1" | translate}}</a>
+              <a (click)="moveToDevelopment()">{{
+                "BusinessAreas.link1" | translate
+              }}</a>
             </li>
-            <li><a (click)="moveToSolution()">{{"BusinessAreas.link2" | translate}}</a></li>
-            <li><a (click)="moveToServices()">{{"BusinessAreas.link3" | translate}}</a></li>
+            <li>
+              <a (click)="moveToSolution()">{{
+                "BusinessAreas.link2" | translate
+              }}</a>
+            </li>
+            <li>
+              <a (click)="moveToServices()">{{
+                "BusinessAreas.link3" | translate
+              }}</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -157,8 +167,8 @@
     </svg>
     <div class="container">
       <div class="row text-center">
-        <h1>{{"Development.title" | translate}}</h1>
-        <p>{{"Development.description" | translate}}</p>
+        <h1>{{ "Development.title" | translate }}</h1>
+        <p>{{ "Development.description" | translate }}</p>
         <div class="col-md-4 pt-3">
           <div class="icon">
             <svg
@@ -174,7 +184,7 @@
               />
             </svg>
           </div>
-          <h3>{{"Development.img-text1" | translate}}</h3>
+          <h3>{{ "Development.img-text1" | translate }}</h3>
         </div>
         <div class="col-md-4 pt-3">
           <div class="icon">
@@ -191,7 +201,7 @@
               />
             </svg>
           </div>
-          <h3>{{"Development.img-text2" | translate}}</h3>
+          <h3>{{ "Development.img-text2" | translate }}</h3>
         </div>
         <div class="col-md-4 pt-3">
           <div class="icon">
@@ -209,7 +219,7 @@
               />
             </svg>
           </div>
-          <h3>{{"Development.img-text3" | translate}}</h3>
+          <h3>{{ "Development.img-text3" | translate }}</h3>
         </div>
       </div>
     </div>
@@ -228,8 +238,8 @@
     <div class="container align-items-center">
       <div class="row text-center justify-content-center">
         <div class="col-md-10">
-          <h1>{{"Solutions.title" | translate}}</h1>
-          <p>{{"Solutions.description" | translate}}</p>
+          <h1>{{ "Solutions.title" | translate }}</h1>
+          <p>{{ "Solutions.description" | translate }}</p>
         </div>
       </div>
       <div class="row my-3 g-3">
@@ -265,7 +275,7 @@
             class="btn btn-outline-secondary"
             routerLink="/solution"
           >
-            {{"Solutions.btn-text" | translate}}
+            {{ "Solutions.btn-text" | translate }}
           </button>
         </div>
       </div>
@@ -283,16 +293,16 @@
       ></path>
     </svg>
     <div class="container text-center pt-3 mb-5 services-heading">
-      <h1>{{"Services.title" | translate}}</h1>
+      <h1>{{ "Services.title" | translate }}</h1>
       <hr />
     </div>
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-6">
           <button type="button" class="btn btn-outline-warning mb-3">
-            {{"Services.btn-text1" | translate}}
+            {{ "Services.btn-text1" | translate }}
           </button>
-          <h3>{{"Services.text1" | translate}}</h3>
+          <h3>{{ "Services.text1" | translate }}</h3>
         </div>
         <div class="col-md-6">
           <img src="../assets/img/coding_.svg" alt="" />
@@ -302,16 +312,16 @@
         </div>
         <div class="col-md-6">
           <button type="button" class="btn btn-outline-warning mb-3">
-            {{"Services.btn-text2" | translate}}
+            {{ "Services.btn-text2" | translate }}
           </button>
 
-          <h3>{{"Services.text2" | translate}}</h3>
+          <h3>{{ "Services.text2" | translate }}</h3>
         </div>
         <div class="col-md-6">
           <button type="button" class="btn btn-outline-warning mb-3">
-            {{"Services.btn-text3" | translate}}
+            {{ "Services.btn-text3" | translate }}
           </button>
-          <h3>{{"Services.text3" | translate}}</h3>
+          <h3>{{ "Services.text3" | translate }}</h3>
         </div>
         <div class="col-md-6">
           <img src="../assets/img/revenue_.svg" alt="" />
@@ -331,7 +341,7 @@
       ></path>
     </svg>
     <div class="container text-center mb-5 lh-2">
-      <h1>{{"Technology.title" | translate}}</h1>
+      <h1>{{ "Technology.title" | translate }}</h1>
       <hr />
     </div>
 
@@ -419,29 +429,47 @@
     <div class="container">
       <div class="row align-items-center justify-content-center">
         <div class="col-md-5">
-          <h1>{{"contact.title" | translate}}</h1>
-          <div class="mb-3">
-            <label for="exampleFormControlInput1" class="form-label"
-              >{{"contact.email" | translate}}</label
-            >
-            <input
-              type="email"
-              class="form-control"
-              id="exampleFormControlInput1"
-              placeholder="name@example.com"
-            />
-          </div>
-          <div class="mb-3">
-            <label for="exampleFormControlTextarea1" class="form-label"
-              >{{"contact.textarea" | translate}}</label
-            >
-            <textarea
-              class="form-control"
-              id="exampleFormControlTextarea1"
-              rows="3"
-            ></textarea>
-          </div>
-          <button type="button" class="btn btn-outline-secondary">{{"contact.btn" | translate}}</button>
+          <form >
+            <h1>{{ "contact.title" | translate }}</h1>
+            <div class="mb-3">
+              <label for="exampleFormControlInput1" class="form-label">{{
+                "contact.email" | translate
+              }}</label>
+              <input
+                #email
+                formControlName="email"
+                type="email"
+                class="form-control"
+                id="email"
+                placeholder="name@example.com"
+              />
+            </div>
+            <div class="mb-3">
+            <label for="subject" class="form-label">{{"contact.subject" | translate}}</label>
+              <input
+                #subject
+                class="form-control"
+                type="text"
+                id="subject"
+                name="subject"
+              />
+            </div>
+            <div class="mb-3">
+              <label for="exampleFormControlTextarea1" class="form-label">{{
+                "contact.textarea" | translate
+              }}</label>
+              <textarea
+                #comment
+                formControlName="comment"
+                class="form-control"
+                id="comment"
+                rows="3"
+              ></textarea>
+            </div>
+            <button type="submit"  class="btn btn-outline-secondary">
+              {{ "contact.btn" | translate }}
+            </button>
+          </form>
         </div>
         <div class="col-md-5">
           <img src="../assets/img/handshake.svg" alt="Contact image" />

@@ -127,20 +127,19 @@
           class="lang nav-item d-flex justify-content-center align-items-center"
         >
           <select
-            #langSelect
+            #selectedLang
             status="primary"
-            (change)="changeLanguage($event.target.value)"
+            (change)="switchLang(selectedLang.value)"
             matRipple
             filled
           >
-            <!-- [(ngModel)]="translate.currentLang"
-            (selectedChange)="changeLanguage($event)" -->
             <option
-              *ngFor="let lang of translate.getLangs()"
-              [value]="lang"
+              *ngFor="let language of translate.getLangs()"
+              [value]="language"
+              [selected]="language === translate.currentLang"
               matRipple
             >
-              {{ lang | uppercase }}
+              {{ language | uppercase }}
             </option>
           </select>
         </li>

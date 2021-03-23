@@ -69,7 +69,7 @@
   "contact": {
     "title": "Nous Contacter.",
     "email": "Adresse e-mail",
-    "subject": "",
+    "subject": "objet",
     "textarea": "Zone de texte",
     "btn": "Envoyer"
   },

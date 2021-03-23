@@ -9,22 +9,21 @@ import * as $ from 'jquery';
 })
 export class AppComponent {
   title = 'servooWeb';
-  translate: any;
 
-  constructor(translate: TranslateService) {
+  constructor(public translate: TranslateService) {
     /**Translation service */
-    translate.addLangs(['en', 'fr']);
+    translate.addLangs(['fr', 'en']);
     translate.setDefaultLang('fr');
-    const browserLang = translate.getBrowserLang();
-    translate.use(browserLang.match(/en|fr/) ? browserLang : 'fr');
+    // const browserLang = translate.getBrowserLang();
+    // translate.use(browserLang.match(/en|fr/) ? browserLang : 'fr');
   }
   /**Translation functions */
-  public changeLanguage(language: string) {
-    this.translate.use(language);
+  public switchLang(lang: string) {
+    this.translate.use(lang);
   }
-  public get currentLanguage(): string {
-    return this.translate.currentLang;
-  }
+  // public get currentLanguage(): string {
+  //   return this.translate.currentLang;
+  // }
 }
 
 
