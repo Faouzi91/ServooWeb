@@ -19,6 +19,7 @@ import { SolutionComponent } from './solution/solution.component';
 import { TranslateLoader, TranslateModule, TranslateStore } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
+import { ReactiveFormsModule } from '@angular/forms';
 
 
 
@@ -38,6 +39,7 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
     InputsModule,
     WavesModule,
     ButtonsModule,
+    ReactiveFormsModule,
     TranslateModule.forChild({
       defaultLanguage: 'fr',
       loader: {
@@ -61,7 +63,7 @@ import { HttpClientModule, HttpClient } from '@angular/common/http';
         component: CompanyComponent,
       },
       {
-        path: 'solution',
+        path: 'references',
         component: SolutionComponent,
       },
       {

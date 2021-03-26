@@ -39,9 +39,18 @@
   },
   "Solutions": {
     "title": "Nos Solutions",
-    "description": "Voici quelques solutions que nous avons mises en place.",
-    "btn-text": "Voir tous les Travaux",
-    "title2": "Travail Effectué",
+    "description": "Voici quelques unes des solutions que nous avons mises en place.",
+    "list1": "Plateforme d’intermédiation en ligne pour les métiers de la mode (Dev. En cours)",
+    "list2": "Solution de Courtage en ligne pour l’assurance Automobile (Dev. En cours)",
+    "list3": "Diverses solutions dédiées au Commerce extérieur (guichet unique, Transit, etc.)",
+    "list4": "Solution de gestion des colis pour les compagnies de transports",
+    "btn-text": "Nos Références"
+    
+  },
+  "References": {
+    "title": "Nos Références",
+    "description": "Voici quelques unes des nos références qui nous ont fait confiance.",
+    "title2": "Nos Références",
     "h-title1": "BGFT",
     "h-description1":"Développement d'une solution de gestion des vignettes pour les véhicules en transit.",
     "h-title2":"APN",
@@ -51,8 +60,13 @@
     "h-title4":"KEEDI LOGISTICS",
     "h-description4":"Développement de modules de renforcement  de capacité pour les intermédiaires de dédouanement et de transit des marchandises.",
     "h-title5":"LITAHI INNOVATIONS",
-    "h-description5":"Co-Création de l’incubateur Incubation Projet de CrowdFarming (Ngaoundéré, Garoua, Maroua) Incubation Plateforme FAWNOO, bourse des métiers de la mode"
+    "h-description5":"Co-Création de l’incubateur Incubation Projet de CrowdFarming (Ngaoundéré, Garoua, Maroua) Incubation Plateforme FAWNOO, bourse des métiers de la mode",
+    "h-title6": "MINCOMMERCE ET LE PNUD",
+    "h-description6":"Conception, Développement et déploiement d’un système d’information sur les marchés (www.camis.cm)",
+    "h-title7": "BOLLORE LOGISTICS",
+    "h-description7":"Développement d’un module de récupération de données de l’ancien système Douanier (SYDONIA++) vers le nouveau système CAMCIS suite migration."
   },
+
   "Services": {
     "title": "Nos services",
     "btn-text1": "Assistance",

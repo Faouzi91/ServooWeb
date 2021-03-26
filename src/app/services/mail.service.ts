@@ -15,7 +15,7 @@ export class MailService {
     port: 587,
     secure: false, // true for 465, false for other ports
     auth: {
-      user: aboubakarfaouzi@gmail.com, // generated ethereal user
+      user: "aboubakarfaouzi@gmail.com", // generated ethereal user
       pass: testAccount.pass, // generated ethereal password
     },
 

@@ -39,9 +39,19 @@
   },
   "Solutions": {
     "title": "Our Solutions",
-    "description": "Here are some solutions that we have put together.",
-    "btn-text": "See All Works",
-    "title2":"Work Done",
+    "description": "Here are some of the solutions we have put in place.",
+    "list1": "Online intermediation platform for fashion professions (Dev. Ongoing)",
+    "list2": "Online Brokerage Solution for Automobile Insurance (Dev. In progress)",
+    "list3": "Various solutions dedicated to foreign trade (one-stop shop, Transit, etc.)",
+    "list4": "Package management solution for transport companies",
+    "btn-text": "Our references"
+    
+  },
+
+  "References": {
+    "title": "Our References",
+    "description": "Here are some of our references who trusted us.",
+    "title2":"Our References",
     "h-title1":"BGFT",
     "h-description1":"Development of a sticker management solution for vehicles in transit.",
     "h-title2":"APN",
@@ -51,8 +61,14 @@
     "h-title4":"KEEDI LOGISTICS",
     "h-description4":"Development of capacity building modules for intermediaries in customs clearance and transit of goods.",
     "h-title5":"LITAHI INNOVATIONS",
-    "h-description5":"Co-creation of the incubator Incubation Crowd Farming Project (Ngaoundéré, Garoua, Maroua) Incubation Platform FAWNOO, fashion trades exchange."
+    "h-description5":"Co-creation of the incubator Incubation Crowd Farming Project (Ngaoundéré, Garoua, Maroua) Incubation Platform FAWNOO, fashion trades exchange.",
+    "h-title6":"MINISTRY OF TRADE AND PNUD",
+    "h-description6":"Design, Development and deployment of a market information system (www.camis.cm)",
+    "h-title7":"BOLLORE LOGISTICS",
+    "h-description7":"Development of a data recovery module from the old Customs system (SYDONIA++) to the new CAMCIS system following migration."
+
   },
+
   "Services": {
     "title": "Our Services",
     "btn-text1": "Assistance",

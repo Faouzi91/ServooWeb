@@ -17,10 +17,11 @@
             {{ "header.btn-text" | translate }}
           </button>
         </div>
-        <div class="col-md-5">
+        <div class="col-md-5 overlay z-depth-1-half">
           <img
-            src="../assets/img/email_campaign_monochromatic.svg"
+            src="../assets/img/tima-miroshnichenko.jpg"
             alt="Header image"
+            class="img-fluid header-img"
           />
         </div>
       </div>
@@ -125,7 +126,12 @@
     <div class="container">
       <div class="row align-items-center">
         <div class="col-md-6">
-          <img src="../assets/img/seo_monochromatic.svg" alt="" />
+          <img
+            src="../assets/img/pexels-christina-morillo.jpg"
+            alt="Solution image"
+            class="img-fluid ba-img ml-auto"
+          />
+          <!-- <div class="mask rgba-orange-slight"></div> -->
         </div>
         <div class="col-md-6">
           <h1 class="my-3">{{ "BusinessAreas.title" | translate }}</h1>
@@ -242,38 +248,31 @@
           <p>{{ "Solutions.description" | translate }}</p>
         </div>
       </div>
-      <div class="row my-3 g-3">
-        <div class="col-md-4 view overlay z-depth-1-half">
-          <img
-            src="../assets/img/christina-morillo.jpg"
-            alt="Solution image"
-            class="img-fluid"
-          />
-          <div class="mask rgba-orange-slight"></div>
+      <div class="row align-items-center my-3 g-3">
+        <div class="col-md-6">
+          <ul class="solution-ul">
+            <li>{{ "Solutions.list1" | translate }}</li>
+            <li>{{ "Solutions.list2" | translate }}</li>
+            <li>{{ "Solutions.list3" | translate }}</li>
+            <li>{{ "Solutions.list4" | translate }}</li>
+          </ul>
         </div>
-        <div class="col-md-4 view overlay z-depth-1-half">
+
+        <div class="col-md-6">
           <img
             src="../assets/img/anna-nekrashevich.jpg"
             alt="Solution image"
-            class="img-fluid"
+            class="img-fluid ba-img ml-auto"
           />
-          <div class="mask rgba-orange-slight"></div>
-        </div>
-        <div class="col-md-4 view overlay z-depth-1-half">
-          <img
-            src="../assets/img/pexels-christina-morillo.jpg"
-            alt="Solution image"
-            class="img-fluid"
-          />
-          <div class="mask rgba-orange-slight"></div>
         </div>
       </div>
+
       <div class="row mt-5 justify-content-end">
         <div class="col-md-2">
           <button
             type="button"
             class="btn btn-outline-secondary"
-            routerLink="/solution"
+            routerLink="/references"
           >
             {{ "Solutions.btn-text" | translate }}
           </button>
@@ -429,7 +428,7 @@
     <div class="container">
       <div class="row align-items-center justify-content-center">
         <div class="col-md-5">
-          <form >
+          <form>
             <h1>{{ "contact.title" | translate }}</h1>
             <div class="mb-3">
               <label for="exampleFormControlInput1" class="form-label">{{
@@ -445,7 +444,9 @@
               />
             </div>
             <div class="mb-3">
-            <label for="subject" class="form-label">{{"contact.subject" | translate}}</label>
+              <label for="subject" class="form-label">{{
+                "contact.subject" | translate
+              }}</label>
               <input
                 #subject
                 class="form-control"
@@ -466,7 +467,7 @@
                 rows="3"
               ></textarea>
             </div>
-            <button type="submit"  class="btn btn-outline-secondary">
+            <button type="submit" class="btn btn-outline-secondary">
               {{ "contact.btn" | translate }}
             </button>
           </form>
