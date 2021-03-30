@@ -33,4 +33,11 @@ export class HomePageComponent implements OnInit {
       inline: 'start',
     });
   }
+  moveToReference() {
+    document.getElementById('reference')!.scrollIntoView({
+      behavior: 'smooth',
+      block: 'start',
+      inline: 'start',
+    });
+  }
 }

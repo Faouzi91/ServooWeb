@@ -11,11 +11,9 @@ import {
 } from 'angular-bootstrap-md';
 import { RouterModule, Routes } from '@angular/router';
 import { CompanyComponent } from './company/company.component';
-import { NotFoundComponent } from './not-found/not-found.component';
 import { HomePageComponent } from './home-page/home-page.component';
 import { HeaderNavComponent } from './header-nav/header-nav.component';
 import { FooterComponent } from './footer/footer.component';
-import { SolutionComponent } from './solution/solution.component';
 import { TranslateLoader, TranslateModule, TranslateStore } from '@ngx-translate/core';
 import { TranslateHttpLoader } from '@ngx-translate/http-loader';
 import { HttpClientModule, HttpClient } from '@angular/common/http';
@@ -30,7 +28,6 @@ import { ReactiveFormsModule } from '@angular/forms';
     HomePageComponent,
     HeaderNavComponent,
     FooterComponent,
-    SolutionComponent,
   ],
   imports: [
     BrowserModule,
@@ -61,14 +58,6 @@ import { ReactiveFormsModule } from '@angular/forms';
       {
         path: 'company',
         component: CompanyComponent,
-      },
-      {
-        path: 'references',
-        component: SolutionComponent,
-      },
-      {
-        path: '**',
-        component: NotFoundComponent,
       },
     ]),
     MDBBootstrapModule.forRoot(),

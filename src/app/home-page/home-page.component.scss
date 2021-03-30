@@ -75,11 +75,13 @@ div.animated-icon1 {
   justify-content: center;
 }
 
+.contact {
+  background-color: aliceblue;
+}
 
-
-// .solutions img {
-//   border-radius: 5%;
-// }
+.references {
+  background-color: aliceblue;
+}
 
 .services {
   color: aliceblue;
@@ -99,15 +101,6 @@ footer {
   color: #fff;
 }
 
-// .fld {
-//   background-color: #fff;
-//   padding: 0;
-//   margin: 0;
-//   width: 140px;
-//   height: fit-content;
-//   display: flex;
-//   align-items: center;
-// }
 
 div.tech-img {
   display: inline-flex;
@@ -129,8 +122,8 @@ div.tech-img {
   height: 180px;
 }
 
-.contact, .solutions {
-  background-color: aliceblue;
+.technology, .solutions {
+  background-color: #fff;
 }
 
 ul.menu,
